@@ -370,7 +370,7 @@ li:hover {
 }
 
 #contact .contact-container input[type="submit"]:hover {
-
+  background: #2D6A4F;
 }
 
 @media screen and (max-width: 768px) {
@@ -419,6 +419,9 @@ li:hover {
   .links.active {
     display: flex;
   }
+  .tab-content h1 {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1520px) {
@@ -430,6 +433,8 @@ li:hover {
     width: calc(100%);
   }
 }
+
+
 
 
 #menu .basket {
